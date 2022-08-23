@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/networknuts/jenkins-k8s-deployment.git'
+        checkout scm
       }
     }
 
