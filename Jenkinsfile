@@ -23,7 +23,7 @@ pipeline {
       }
     }
 
-    stage('Pushing Image') {
+    stage('Pushing Image to DockerHub') {
       environment {
                registryCredential = 'dockerhublogin'
            }
